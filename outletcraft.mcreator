@@ -1,42 +1,9 @@
 {
-  "mod_elements": [
-    {
-      "name": "Test",
-      "type": "fluid",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "gb": true
-      }
-    },
-    {
-      "name": "Pptest",
-      "type": "command",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pptest"
-    },
-    {
-      "name": "Pp",
-      "type": "biome",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pp"
-    }
-  ],
+  "mod_elements": [],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {
-      "item.outletcraft.test_bucket": "Test Bucket",
-      "biome.outletcraft.pp": "Pp",
-      "block.outletcraft.test": "Test",
-      "fluid.outletcraft.test": "Test"
-    }
+    "en_us": {}
   },
   "foldersRoot": {
     "name": "~",

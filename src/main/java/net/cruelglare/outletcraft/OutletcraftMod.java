@@ -26,12 +26,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.cruelglare.outletcraft.init.OutletcraftModItems;
-import net.cruelglare.outletcraft.init.OutletcraftModFluids;
-import net.cruelglare.outletcraft.init.OutletcraftModFeatures;
-import net.cruelglare.outletcraft.init.OutletcraftModBlocks;
-import net.cruelglare.outletcraft.init.OutletcraftModBiomes;
-
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -48,13 +42,6 @@ public class OutletcraftMod {
 	public OutletcraftMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		OutletcraftModBlocks.REGISTRY.register(bus);
-		OutletcraftModItems.REGISTRY.register(bus);
-
-		OutletcraftModFeatures.REGISTRY.register(bus);
-		OutletcraftModFluids.REGISTRY.register(bus);
-
-		OutletcraftModBiomes.REGISTRY.register(bus);
 
 	}
 

@@ -4,7 +4,7 @@
       "name": "Outlet",
       "type": "block",
       "sortid": 1,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "outlet"
     },
@@ -12,9 +12,17 @@
       "name": "Minephone",
       "type": "item",
       "sortid": 2,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "minephone"
+    },
+    {
+      "name": "MinephoneGUI",
+      "type": "gui",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minephone_gui"
     }
   ],
   "variable_elements": [],

@@ -1,0 +1,102 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 120,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Welcome to spamazon!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Welcome to spamazon!",
+          "x": 161,
+          "y": 44
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "What would you like",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "What would you like",
+          "x": 161,
+          "y": 71
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "to purchase?",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "to purchase?",
+          "x": 161,
+          "y": 80
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Purchase EPod",
+          "name": "EPod_Purchase",
+          "x": 161,
+          "y": 107
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "outlet.png",
+          "use1Xscale": false,
+          "name": "outlet.png",
+          "x": 247,
+          "y": 182
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "Purchase TV",
+          "name": "Purchase_TV",
+          "x": 161,
+          "y": 143
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "By Crule-Glare",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "By Crule-Glare",
+          "x": 166,
+          "y": 185
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 15,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

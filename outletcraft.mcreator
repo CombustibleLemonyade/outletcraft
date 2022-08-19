@@ -10,6 +10,14 @@
       "metadata": {
         "gb": true
       }
+    },
+    {
+      "name": "Pptest",
+      "type": "command",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pptest"
     }
   ],
   "variable_elements": [],

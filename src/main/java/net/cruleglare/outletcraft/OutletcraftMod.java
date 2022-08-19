@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.cruelglare.outletcraft;
+package net.cruleglare.outletcraft;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -25,6 +25,9 @@ import net.minecraftforge.eventbus.api.IEventBus;
 
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
+
+import net.cruleglare.outletcraft.init.OutletcraftModItems;
+import net.cruleglare.outletcraft.init.OutletcraftModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -42,6 +45,8 @@ public class OutletcraftMod {
 	public OutletcraftMod() {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+		OutletcraftModBlocks.REGISTRY.register(bus);
+		OutletcraftModItems.REGISTRY.register(bus);
 
 	}
 

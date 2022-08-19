@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outletcraft:blocks/outlettop",
+    "up": "outletcraft:blocks/outlettop",
+    "north": "outletcraft:blocks/outlet",
+    "east": "outletcraft:blocks/outlet",
+    "south": "outletcraft:blocks/outlet",
+    "west": "outletcraft:blocks/outlet",
+    "particle": "outletcraft:blocks/outlettop"
+  }
+}

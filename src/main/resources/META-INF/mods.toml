@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[40,)"
-license="Academic Free License v3.0"
+license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="outletcraft"
@@ -8,7 +8,11 @@ version="1.0.0"
 displayName="OutletCraft"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 authors="Crule-Glare Prod"
+description='''
+beep boop skidibap fnf
+'''
 
 [[dependencies.outletcraft]]
     modId="minecraft"

@@ -1,9 +1,29 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Outlet",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outlet"
+    },
+    {
+      "name": "Minephone",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minephone"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.outletcraft.outlet": "Outlet",
+      "item.outletcraft.minephone": "Minephone"
+    }
   },
   "foldersRoot": {
     "name": "~",
@@ -13,18 +33,20 @@
     "modid": "outletcraft",
     "modName": "OutletCraft",
     "version": "1.0.0",
+    "description": "beep boop skidibap fnf",
     "author": "Crule-Glare Prod",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "outlet",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.cruelglare.outletcraft",
+    "modElementsPackage": "net.cruleglare.outletcraft",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200120510

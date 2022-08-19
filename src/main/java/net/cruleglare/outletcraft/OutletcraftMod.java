@@ -11,7 +11,7 @@
  *    will be REGENERATED on each build.
  *
  */
-package net.cruelglare.outletcraft;
+package net.cruleglare.outletcraft;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;

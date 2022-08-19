@@ -15,14 +15,6 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "minephone"
-    },
-    {
-      "name": "Minecrap",
-      "type": "block",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "minecrap"
     }
   ],
   "variable_elements": [],
@@ -30,7 +22,6 @@
   "language_map": {
     "en_us": {
       "block.outletcraft.outlet": "Outlet",
-      "block.outletcraft.minecrap": "Minecrap",
       "item.outletcraft.minephone": "Minephone"
     }
   },

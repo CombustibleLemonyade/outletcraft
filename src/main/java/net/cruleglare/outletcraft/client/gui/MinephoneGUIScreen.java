@@ -92,7 +92,7 @@ public class MinephoneGUIScreen extends AbstractContainerScreen<MinephoneGUIMenu
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		EPod_Purchase = new Checkbox(this.leftPos + 7, this.topPos + 70, 150, 20, new TextComponent("Purchase EPod"), false);
+		EPod_Purchase = new Checkbox(this.leftPos + 7, this.topPos + 69, 150, 20, new TextComponent("Purchase EPod"), false);
 		guistate.put("checkbox:EPod_Purchase", EPod_Purchase);
 		this.addRenderableWidget(EPod_Purchase);
 		Purchase_TV = new Checkbox(this.leftPos + 7, this.topPos + 106, 150, 20, new TextComponent("Purchase TV"), false);

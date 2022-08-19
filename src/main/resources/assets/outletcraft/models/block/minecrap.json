@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "outletcraft:blocks/hdtv",
+    "up": "outletcraft:blocks/hdtv",
+    "north": "outletcraft:blocks/hdtv",
+    "east": "outletcraft:blocks/hdtv",
+    "south": "outletcraft:blocks/hdtv",
+    "west": "outletcraft:blocks/hdtv",
+    "particle": "outletcraft:blocks/hdtv"
+  }
+}

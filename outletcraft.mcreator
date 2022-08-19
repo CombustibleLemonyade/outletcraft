@@ -18,6 +18,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pptest"
+    },
+    {
+      "name": "Pp",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pp"
     }
   ],
   "variable_elements": [],
@@ -25,6 +33,7 @@
   "language_map": {
     "en_us": {
       "item.outletcraft.test_bucket": "Test Bucket",
+      "biome.outletcraft.pp": "Pp",
       "block.outletcraft.test": "Test",
       "fluid.outletcraft.test": "Test"
     }

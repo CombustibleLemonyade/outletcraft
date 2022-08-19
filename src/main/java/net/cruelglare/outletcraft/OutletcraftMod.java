@@ -30,6 +30,7 @@ import net.cruelglare.outletcraft.init.OutletcraftModItems;
 import net.cruelglare.outletcraft.init.OutletcraftModFluids;
 import net.cruelglare.outletcraft.init.OutletcraftModFeatures;
 import net.cruelglare.outletcraft.init.OutletcraftModBlocks;
+import net.cruelglare.outletcraft.init.OutletcraftModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,6 +53,8 @@ public class OutletcraftMod {
 
 		OutletcraftModFeatures.REGISTRY.register(bus);
 		OutletcraftModFluids.REGISTRY.register(bus);
+
+		OutletcraftModBiomes.REGISTRY.register(bus);
 
 	}
 

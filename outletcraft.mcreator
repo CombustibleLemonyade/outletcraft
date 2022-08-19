@@ -1,0 +1,47 @@
+{
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "fluid",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "gb": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.outletcraft.test_bucket": "Test Bucket",
+      "block.outletcraft.test": "Test",
+      "fluid.outletcraft.test": "Test"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "outletcraft",
+    "modName": "OutletCraft",
+    "version": "1.0.0",
+    "author": "Crule-Glare Prod",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.cruelglare.outletcraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
